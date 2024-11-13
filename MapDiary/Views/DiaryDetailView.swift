@@ -47,7 +47,7 @@ struct DiaryDetailView: View {
                     .clipShape(
                         RoundedShape(
                             corners: [.bottomLeft],
-                            radius: 48
+                            radius: 60
                         )
                     )
                 }

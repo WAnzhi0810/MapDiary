@@ -188,6 +188,78 @@ class DiaryViewModel: ObservableObject {
                 season: "Fall",
                 year: "2020",
                 duration: 6
+            ),
+            
+            DiaryEntry(
+                title: "Santorini Sunset",
+                date: Date(timeIntervalSince1970: 1625097600), // 2021-07-01
+                location: DiaryEntry.Location(
+                    coordinate: CLLocationCoordinate2D(latitude: 36.4618, longitude: 25.3760),
+                    street: "Oia Castle",
+                    district: "Oia",
+                    city: "Santorini",
+                    state: "South Aegean",
+                    country: "Greece"
+                ),
+                imageUrl: "santorini",
+                content: "Watching the sunset from Oia Castle was absolutely breathtaking. The white-washed buildings contrasting with the deep blue Aegean Sea created a perfect canvas for the orange and pink sky. Had an amazing dinner at a local taverna, enjoying fresh seafood and traditional Greek wine while overlooking the caldera.",
+                season: "Summer",
+                year: "2021",
+                duration: 5
+            ),
+            
+            DiaryEntry(
+                title: "Machu Picchu Trek",
+                date: Date(timeIntervalSince1970: 1633046400), // 2021-10-01
+                location: DiaryEntry.Location(
+                    coordinate: CLLocationCoordinate2D(latitude: -13.1631, longitude: -72.5450),
+                    street: "Inca Trail",
+                    district: "Machu Picchu",
+                    city: "Cusco",
+                    state: "Cusco Region",
+                    country: "Peru"
+                ),
+                imageUrl: "machupicchu",
+                content: "Finally reached Machu Picchu after a challenging 4-day trek along the Inca Trail. The morning mist slowly revealing the ancient citadel was a magical moment. The architectural precision of the Incan civilization is truly remarkable. Our guide shared fascinating stories about the history and astronomical significance of various structures.",
+                season: "Spring",
+                year: "2021",
+                duration: 7
+            ),
+            
+            DiaryEntry(
+                title: "Safari in Serengeti",
+                date: Date(timeIntervalSince1970: 1640995200), // 2022-01-01
+                location: DiaryEntry.Location(
+                    coordinate: CLLocationCoordinate2D(latitude: -2.3333, longitude: 34.8333),
+                    street: nil,
+                    district: nil,
+                    city: "Serengeti National Park",
+                    state: "Mara Region",
+                    country: "Tanzania"
+                ),
+                imageUrl: "serengeti",
+                content: "Witnessed the great wildebeest migration today! Woke up at dawn to the sounds of the African savanna. Spotted all of the Big Five - lion, leopard, elephant, rhino, and buffalo. The sunset game drive was particularly special as we watched a pride of lions preparing for their evening hunt.",
+                season: "Summer",
+                year: "2022",
+                duration: 6
+            ),
+            
+            DiaryEntry(
+                title: "Northern Lights in Tromsø",
+                date: Date(timeIntervalSince1970: 1644883200), // 2022-02-15
+                location: DiaryEntry.Location(
+                    coordinate: CLLocationCoordinate2D(latitude: 69.6492, longitude: 18.9553),
+                    street: "Aurora Station",
+                    district: nil,
+                    city: "Tromsø",
+                    state: "Troms og Finnmark",
+                    country: "Norway"
+                ),
+                imageUrl: "tromso",
+                content: "After three nights of waiting, we finally witnessed the most spectacular aurora display! The green and purple lights danced across the sky for hours. Stayed in a glass igloo, enjoying the view while staying warm. Earlier in the day, we went dog sledding through the snow-covered landscape.",
+                season: "Winter",
+                year: "2022",
+                duration: 4
             )
         ]
     }
